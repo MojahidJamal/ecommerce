@@ -1,8 +1,6 @@
 import 'package:ecommerce_app/constants.dart';
-import 'package:ecommerce_app/view/second_screen.dart';
 import 'package:ecommerce_app/view/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 import 'widgets/custom_button.dart';
 import 'widgets/custom_social_button.dart';
@@ -80,7 +78,7 @@ class LoginScreen extends StatelessWidget {
             CustomButton(
               text: 'SIGN IN',
               onPressed: () {
-                Get.to(SecondScreen());
+                // Get.to(SecondScreen());
               },
             ),
             SizedBox(

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Flutter Workspace\\ecommerce_app\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-da\\values-da.xml",
+            "outputFile": "C:\\Users\\oxygen\\StudioProjects\\ecommerce_app\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-da\\values-da.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\5fc8a1398f9a0d8448b6776cb6c51500\\transformed\\core-1.1.0\\res\\values-da\\values-da.xml",
+                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\values-da\\values-da.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

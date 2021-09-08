@@ -2,9 +2,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
-class AuthViewModel extends GetxController{
+class AuthViewModel extends GetxController {
   GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['email']);
   FirebaseAuth _auth = FirebaseAuth.instance;
+
   @override
   void onInit() {
     super.onInit();
@@ -18,5 +19,9 @@ class AuthViewModel extends GetxController{
   @override
   void onClose() {
     super.onClose();
+  }
+
+  void googleSignInMethod() async {
+    final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
   }
 }

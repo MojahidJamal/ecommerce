@@ -3,6 +3,7 @@ import 'package:ecommerce_app/core/view%20model/auth_view_model.dart';
 import 'package:ecommerce_app/view/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
 import 'widgets/custom_button.dart';
 import 'widgets/custom_social_button.dart';
 import 'widgets/custom_text_form_field.dart';
@@ -95,7 +96,9 @@ class LoginScreen extends GetWidget<AuthViewModel> {
             CustomSocialButton(
               text: 'Sign in with Facebook',
               imageName: 'assets/images/facebook.png',
-              onPressed: () {},
+              onPressed: () {
+                controller.facebookSignInMethod();
+              },
             ),
             SizedBox(
               height: 40,

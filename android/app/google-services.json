@@ -7,46 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:637082126091:android:ba14065eb43042a0e3840e",
+        "mobilesdk_app_id": "1:637082126091:android:b3a4ba03c5ff5ed2e3840e",
         "android_client_info": {
           "package_name": "com.cezar.ecommerce_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "637082126091-53ft93ostqpra0tqn49dtki92ubqpcfq.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCoaaxGc8YbGgUm2LaSVIUTQrJppoMuHBc"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "637082126091-53ft93ostqpra0tqn49dtki92ubqpcfq.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:637082126091:android:a8298e14b24403afe3840e",
-        "android_client_info": {
-          "package_name": "com.cezar.ecommrce_app"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "637082126091-10hv5u59v42e8p6eo81s8von9haa0m98.apps.googleusercontent.com",
+          "client_id": "637082126091-i5jgf0rbdnan9uojms589vrjs2b6faev.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.cezar.ecommrce_app",
+            "package_name": "com.cezar.ecommerce_app",
             "certificate_hash": "d193d762b8c67dd4185fcdff1afe9bf98bc99256"
           }
         },

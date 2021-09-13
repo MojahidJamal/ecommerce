@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "637082126091-i5jgf0rbdnan9uojms589vrjs2b6faev.apps.googleusercontent.com",
+          "client_id": "637082126091-6ko6fno03b3sc82nj3hdb4crcq6gb9lo.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.cezar.ecommerce_app",
-            "certificate_hash": "d193d762b8c67dd4185fcdff1afe9bf98bc99256"
+            "certificate_hash": "3ec8c5f11e835dc81b3dbd8b314c83575968bd11"
           }
         },
         {

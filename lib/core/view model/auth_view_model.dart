@@ -11,7 +11,7 @@ class AuthViewModel extends GetxController {
   GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['email']);
   FirebaseAuth _auth = FirebaseAuth.instance;
   FacebookAuth _facebookAuth = FacebookAuth.instance;
-  late String email, password, name;
+  String? email, password, name;
   Rxn<User> _user = Rxn<User>();
 
   String? get user => _user.value?.email;
@@ -37,24 +37,37 @@ class AuthViewModel extends GetxController {
     print(googleUser);
 
     GoogleSignInAuthentication googleSignInAuthentication =
-        await googleUser!.authentication;
+    await googleUser!.authentication;
 
     final AuthCredential authCredential = GoogleAuthProvider.credential(
       idToken: googleSignInAuthentication.idToken,
       accessToken: googleSignInAuthentication.accessToken,
     );
 
-    // UserCredential userCredential =
-    await _auth.signInWithCredential(authCredential);
-    // print(userCredential);
+    await _auth.signInWithCredential(authCredential).then((user) {
+      saveUser(user);
+      Get.offAll(HomeView());
+    });
+  }
+
+  void facebookSignInMethod() async {
+    final LoginResult result = await _facebookAuth.login();
+    final AccessToken accessToken = result.accessToken!;
+    if (result.status == LoginStatus.success) {
+      final facebookCredential =
+          FacebookAuthProvider.credential(accessToken.token);
+      await _auth.signInWithCredential(facebookCredential).then((user) {
+      saveUser(user);
+      Get.offAll(HomeView());
+    });
+    }
   }
 
   void signInWithEmailAndPassword() async {
     try {
-      await _auth.signInWithEmailAndPassword(email: email, password: password);
-      //     .then((value) {
-      //   print(value);
-      // });
+      await _auth
+          .signInWithEmailAndPassword(email: email!, password: password!)
+          .then((user) => saveUser(user));
       Get.offAll(() => HomeView());
     } catch (e) {
       print(e.obs.string);
@@ -70,38 +83,32 @@ class AuthViewModel extends GetxController {
   void signUpWithEmailAndPassword() async {
     try {
       await _auth
-          .createUserWithEmailAndPassword(email: email, password: password)
+          .createUserWithEmailAndPassword(email: email!, password: password!)
           .then((user) async {
-        await FireStoreUser().addUserToFireStore(
-          UserModel(
-            userId: user.user!.uid,
-            name: name,
-            email: user.user!.email,
-            pic: '',
-          ),
-        );
+        saveUser(user);
         print(user);
       });
       Get.offAll(() => HomeView());
-    } catch (e) {
-      print(e.obs.string);
+    } on Exception catch (e) {
+      print(e);
       Get.snackbar(
         'Error Login account',
-        e.obs.string,
+        e.toString(),
         colorText: Colors.black,
         snackPosition: SnackPosition.BOTTOM,
       );
     }
   }
 
-  void facebookSignInMethod() async {
-    final LoginResult result = await _facebookAuth.login();
-    final AccessToken accessToken = result.accessToken!;
-    if (result.status == LoginStatus.success) {
-      final facebookCredential =
-          FacebookAuthProvider.credential(accessToken.token);
-      await _auth.signInWithCredential(facebookCredential);
-      print(facebookCredential);
-    }
+  void saveUser(UserCredential user) async {
+    await FireStoreUser().addUserToFireStore(
+      UserModel(
+        userId: user.user!.uid,
+        name: name == null ? user.user!.displayName : name,
+        email: user.user!.email,
+        pic: '',
+      ),
+    );
+    print(user);
   }
 }

@@ -6,6 +6,7 @@ INJECTED from E:\Flutter Workspace\ecommerce_app\android\app\src\main\AndroidMan
 INJECTED from E:\Flutter Workspace\ecommerce_app\android\app\src\main\AndroidManifest.xml:1:1-31:12
 MERGED from E:\Flutter Workspace\ecommerce_app\android\app\src\main\AndroidManifest.xml:1:1-31:12
 MERGED from [:firebase_auth] E:\Flutter Workspace\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] E:\Flutter Workspace\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] E:\Flutter Workspace\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:google_sign_in] E:\Flutter Workspace\ecommerce_app\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_facebook_auth] E:\Flutter Workspace\ecommerce_app\build\flutter_facebook_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
@@ -20,6 +21,7 @@ MERGED from [com.facebook.android:facebook-common:11.1.1] C:\Users\EliteBook\.gr
 MERGED from [com.facebook.android:facebook-core:11.1.1] C:\Users\EliteBook\.gradle\caches\transforms-3\75054eaa7d9978213e04fc94d23c93e2\transformed\jetified-facebook-core-11.1.1\AndroidManifest.xml:21:1-53:12
 MERGED from [com.google.firebase:firebase-analytics:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\8cf5c8432d5afc72c5646596934fc092\transformed\jetified-firebase-analytics-19.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\1afb647adefa0d08b9114125b0f1ab79\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\b628eedb2b77b7470f52aded0eb59d14\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\d78c3a4d7571dda6bb19ac5f4f09159b\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\e373cce8a1e930ce733de11bcf4e045b\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:2:1-24:12
@@ -28,6 +30,7 @@ MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\EliteBoo
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\EliteBook\.gradle\caches\transforms-3\fee60972b0489203a50ddf655ed61fdc\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\86daf4c970902c5f924fe3b935711c31\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\4a26f3b530dfdb5c262c35818b2244d1\transformed\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\18f4a8da4bb657137bbde0dab1a00012\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\EliteBook\.gradle\caches\transforms-3\22cfe100ec7338e5425ca0da39a38b73\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\EliteBook\.gradle\caches\transforms-3\4600f65b321d9b5e373caa2a1990275f\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\c5f7bf1cb5105741317dae1e7c0f17f4\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:17:1-46:12
@@ -75,6 +78,8 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\EliteBook\.gra
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\1732608aa3218d2bdac01b0ccf4aadf1\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\2569398ebf7abc74629c545c147b6d57\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\EliteBook\.gradle\caches\transforms-3\9bad733918bf45754edd447b91bb71be\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\EliteBook\.gradle\caches\transforms-3\2b93bd81ac7a6fb629395ec1f42934e6\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\62fc54e3ed0ec68816d3bb76982a5338\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\EliteBook\.gradle\caches\transforms-3\aae216848ecd8d9e8e31655105904cb1\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
 INJECTED from E:\Flutter Workspace\ecommerce_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from E:\Flutter Workspace\ecommerce_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -101,6 +106,8 @@ MERGED from [:google_sign_in] E:\Flutter Workspace\ecommerce_app\build\google_si
 MERGED from [:google_sign_in] E:\Flutter Workspace\ecommerce_app\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\1afb647adefa0d08b9114125b0f1ab79\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\1afb647adefa0d08b9114125b0f1ab79\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:14:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\b628eedb2b77b7470f52aded0eb59d14\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\b628eedb2b77b7470f52aded0eb59d14\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\e373cce8a1e930ce733de11bcf4e045b\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
@@ -117,6 +124,8 @@ application
 ADDED from E:\Flutter Workspace\ecommerce_app\android\app\src\main\AndroidManifest.xml:5:5-30:19
 MERGED from [:firebase_auth] E:\Flutter Workspace\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] E:\Flutter Workspace\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] E:\Flutter Workspace\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] E:\Flutter Workspace\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] E:\Flutter Workspace\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] E:\Flutter Workspace\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [com.facebook.android:facebook-android-sdk:8.2.0] C:\Users\EliteBook\.gradle\caches\transforms-3\cbbfc3152a3de2877fc0db30a02c84ac\transformed\jetified-facebook-android-sdk-8.2.0\AndroidManifest.xml:28:5-29:19
@@ -139,6 +148,8 @@ MERGED from [com.google.firebase:firebase-analytics:19.0.1] C:\Users\EliteBook\.
 MERGED from [com.google.firebase:firebase-analytics:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\8cf5c8432d5afc72c5646596934fc092\transformed\jetified-firebase-analytics-19.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\1afb647adefa0d08b9114125b0f1ab79\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\1afb647adefa0d08b9114125b0f1ab79\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\b628eedb2b77b7470f52aded0eb59d14\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\b628eedb2b77b7470f52aded0eb59d14\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\d78c3a4d7571dda6bb19ac5f4f09159b\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
@@ -279,6 +290,8 @@ INJECTED from E:\Flutter Workspace\ecommerce_app\android\app\src\main\AndroidMan
 INJECTED from E:\Flutter Workspace\ecommerce_app\android\app\src\main\AndroidManifest.xml
 MERGED from [:firebase_auth] E:\Flutter Workspace\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] E:\Flutter Workspace\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] E:\Flutter Workspace\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] E:\Flutter Workspace\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] E:\Flutter Workspace\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] E:\Flutter Workspace\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] E:\Flutter Workspace\ecommerce_app\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
@@ -307,6 +320,8 @@ MERGED from [com.google.firebase:firebase-analytics:19.0.1] C:\Users\EliteBook\.
 MERGED from [com.google.firebase:firebase-analytics:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\8cf5c8432d5afc72c5646596934fc092\transformed\jetified-firebase-analytics-19.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\1afb647adefa0d08b9114125b0f1ab79\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\1afb647adefa0d08b9114125b0f1ab79\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\b628eedb2b77b7470f52aded0eb59d14\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\b628eedb2b77b7470f52aded0eb59d14\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\d78c3a4d7571dda6bb19ac5f4f09159b\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
@@ -323,6 +338,8 @@ MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Eli
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\86daf4c970902c5f924fe3b935711c31\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\4a26f3b530dfdb5c262c35818b2244d1\transformed\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\4a26f3b530dfdb5c262c35818b2244d1\transformed\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\18f4a8da4bb657137bbde0dab1a00012\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\18f4a8da4bb657137bbde0dab1a00012\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\EliteBook\.gradle\caches\transforms-3\22cfe100ec7338e5425ca0da39a38b73\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\EliteBook\.gradle\caches\transforms-3\22cfe100ec7338e5425ca0da39a38b73\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\EliteBook\.gradle\caches\transforms-3\4600f65b321d9b5e373caa2a1990275f\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -417,6 +434,10 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\EliteBook\.gradle\caches\trans
 MERGED from [androidx.print:print:1.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\2569398ebf7abc74629c545c147b6d57\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\EliteBook\.gradle\caches\transforms-3\9bad733918bf45754edd447b91bb71be\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\EliteBook\.gradle\caches\transforms-3\9bad733918bf45754edd447b91bb71be\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\EliteBook\.gradle\caches\transforms-3\2b93bd81ac7a6fb629395ec1f42934e6\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\EliteBook\.gradle\caches\transforms-3\2b93bd81ac7a6fb629395ec1f42934e6\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\62fc54e3ed0ec68816d3bb76982a5338\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\62fc54e3ed0ec68816d3bb76982a5338\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\EliteBook\.gradle\caches\transforms-3\aae216848ecd8d9e8e31655105904cb1\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\EliteBook\.gradle\caches\transforms-3\aae216848ecd8d9e8e31655105904cb1\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
 INJECTED from E:\Flutter Workspace\ecommerce_app\android\app\src\debug\AndroidManifest.xml
@@ -429,10 +450,14 @@ INJECTED from E:\Flutter Workspace\ecommerce_app\android\app\src\debug\AndroidMa
 		INJECTED from E:\Flutter Workspace\ecommerce_app\android\app\src\debug\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:firebase_auth] E:\Flutter Workspace\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] E:\Flutter Workspace\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] E:\Flutter Workspace\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] E:\Flutter Workspace\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] E:\Flutter Workspace\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\1afb647adefa0d08b9114125b0f1ab79\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\1afb647adefa0d08b9114125b0f1ab79\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\b628eedb2b77b7470f52aded0eb59d14\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\b628eedb2b77b7470f52aded0eb59d14\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\e373cce8a1e930ce733de11bcf4e045b\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:15:9-21:19
@@ -453,6 +478,12 @@ ADDED from [:firebase_auth] E:\Flutter Workspace\ecommerce_app\build\firebase_au
 		ADDED from [:firebase_auth] E:\Flutter Workspace\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_auth] E:\Flutter Workspace\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] E:\Flutter Workspace\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] E:\Flutter Workspace\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] E:\Flutter Workspace\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
 ADDED from [:firebase_core] E:\Flutter Workspace\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
@@ -489,6 +520,8 @@ ADDED from [com.facebook.android:facebook-core:11.1.1] C:\Users\EliteBook\.gradl
 		ADDED from [com.facebook.android:facebook-core:11.1.1] C:\Users\EliteBook\.gradle\caches\transforms-3\75054eaa7d9978213e04fc94d23c93e2\transformed\jetified-facebook-core-11.1.1\AndroidManifest.xml:48:25-92
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\1afb647adefa0d08b9114125b0f1ab79\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\b628eedb2b77b7470f52aded0eb59d14\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\b628eedb2b77b7470f52aded0eb59d14\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\e373cce8a1e930ce733de11bcf4e045b\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:10:5-79
@@ -499,6 +532,8 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\5ba21af067c0ff4a1f4de589b66890d1\transformed\jetified-play-services-measurement-impl-19.0.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\50591a4693de3019f67c245d4d4795fe\transformed\jetified-play-services-measurement-sdk-api-19.0.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\50591a4693de3019f67c245d4d4795fe\transformed\jetified-play-services-measurement-sdk-api-19.0.1\AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\EliteBook\.gradle\caches\transforms-3\2b93bd81ac7a6fb629395ec1f42934e6\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\EliteBook\.gradle\caches\transforms-3\2b93bd81ac7a6fb629395ec1f42934e6\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\1afb647adefa0d08b9114125b0f1ab79\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
 activity#com.google.firebase.auth.internal.GenericIdpActivity
@@ -549,6 +584,12 @@ ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle
 		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\1afb647adefa0d08b9114125b0f1ab79\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\1afb647adefa0d08b9114125b0f1ab79\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\EliteBook\.gradle\caches\transforms-3\60792c8186278fa7eaa77e70f73dd596\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:21:17-111
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\b628eedb2b77b7470f52aded0eb59d14\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement:19.0.1] C:\Users\EliteBook\.gradle\caches\transforms-3\c5f7bf1cb5105741317dae1e7c0f17f4\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:25:5-68

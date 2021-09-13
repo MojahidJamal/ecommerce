@@ -1,20 +1,25 @@
+import 'package:ecommerce_app/core/service/firestore_user.dart';
+import 'package:ecommerce_app/model/user_model.dart';
+import 'package:ecommerce_app/view/home_view.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
-
-// import 'package:flutter_facebook_login/flutter_facebook_login.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 class AuthViewModel extends GetxController {
   GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['email']);
   FirebaseAuth _auth = FirebaseAuth.instance;
-
-  // FacebookLogin _facebookLogin = FacebookLogin();
   FacebookAuth _facebookAuth = FacebookAuth.instance;
+  late String email, password, name;
+  Rxn<User> _user = Rxn<User>();
+
+  String? get user => _user.value?.email;
 
   @override
   void onInit() {
     super.onInit();
+    _user.bindStream(_auth.authStateChanges());
   }
 
   @override
@@ -39,25 +44,64 @@ class AuthViewModel extends GetxController {
       accessToken: googleSignInAuthentication.accessToken,
     );
 
-    UserCredential userCredential =
-        await _auth.signInWithCredential(authCredential);
-    print(userCredential);
+    // UserCredential userCredential =
+    await _auth.signInWithCredential(authCredential);
+    // print(userCredential);
+  }
+
+  void signInWithEmailAndPassword() async {
+    try {
+      await _auth.signInWithEmailAndPassword(email: email, password: password);
+      //     .then((value) {
+      //   print(value);
+      // });
+      Get.offAll(() => HomeView());
+    } catch (e) {
+      print(e.obs.string);
+      Get.snackbar(
+        'Error Login account',
+        e.obs.string,
+        colorText: Colors.black,
+        snackPosition: SnackPosition.BOTTOM,
+      );
+    }
+  }
+
+  void signUpWithEmailAndPassword() async {
+    try {
+      await _auth
+          .createUserWithEmailAndPassword(email: email, password: password)
+          .then((user) async {
+        await FireStoreUser().addUserToFireStore(
+          UserModel(
+            userId: user.user!.uid,
+            name: name,
+            email: user.user!.email,
+            pic: '',
+          ),
+        );
+        print(user);
+      });
+      Get.offAll(() => HomeView());
+    } catch (e) {
+      print(e.obs.string);
+      Get.snackbar(
+        'Error Login account',
+        e.obs.string,
+        colorText: Colors.black,
+        snackPosition: SnackPosition.BOTTOM,
+      );
+    }
   }
 
   void facebookSignInMethod() async {
     final LoginResult result = await _facebookAuth.login();
     final AccessToken accessToken = result.accessToken!;
     if (result.status == LoginStatus.success) {
-      final facebookCredential = FacebookAuthProvider.credential('accessToken');
-      print(accessToken);
+      final facebookCredential =
+          FacebookAuthProvider.credential(accessToken.token);
       await _auth.signInWithCredential(facebookCredential);
+      print(facebookCredential);
     }
-
-    // final accessToken = result.accessToken.token;
-
-    // if(result.status == FacebookLoginStatus.loggedIn){
-    //   final facebookCredential = FacebookAuthProvider.credential(accessToken);
-    //   await _auth.signInWithCredential(facebookCredential);
-    // }
   }
 }

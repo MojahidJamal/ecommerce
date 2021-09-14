@@ -1,6 +1,8 @@
 import 'package:ecommerce_app/constants.dart';
+import 'package:ecommerce_app/core/view%20model/home_view_model.dart';
 import 'package:ecommerce_app/view/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class HomeView extends StatelessWidget {
   final List<String> names = <String>[
@@ -16,75 +18,83 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      
-      body: Container(
-        padding: EdgeInsets.only(top: 100, right: 20, left: 20),
-        child: ListView(
-          children: [
-            _searchTextFormField(),
-            SizedBox(height: 30),
-            CustomText(
-              text: 'Categories',
-            ),
-            SizedBox(height: 30),
-            _listViewCategory(),
-            SizedBox(height: 30),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                CustomText(
-                  text: 'Best Selling',
-                  fontSize: 18,
+    return GetBuilder<HomeViewModel>(
+      builder: (controller) => controller.loading.value
+          ? Center(
+              child: CircularProgressIndicator(
+                value: 2.0,
+              ),
+            )
+          : Scaffold(
+              body: Container(
+                padding: EdgeInsets.only(top: 100, right: 20, left: 20),
+                child: ListView(
+                  children: [
+                    _searchTextFormField(),
+                    SizedBox(height: 30),
+                    CustomText(
+                      text: 'Categories',
+                    ),
+                    SizedBox(height: 30),
+                    _listViewCategory(),
+                    SizedBox(height: 30),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        CustomText(
+                          text: 'Best Selling',
+                          fontSize: 18,
+                        ),
+                        CustomText(
+                          text: 'See All',
+                          fontSize: 16,
+                        ),
+                      ],
+                    ),
+                    SizedBox(height: 30),
+                    _listViewProduct(),
+                  ],
                 ),
-                CustomText(
-                  text: 'See All',
-                  fontSize: 16,
-                ),
-              ],
+              ),
             ),
-            SizedBox(height: 30),
-            _listViewProduct(),
-          ],
-        ),
-      ),
     );
   }
 
-  
-
-  Container _listViewCategory() {
-    return Container(
-      height: 100,
-      child: ListView.separated(
-        scrollDirection: Axis.horizontal,
-        separatorBuilder: (context, index) => SizedBox(
-          width: 20,
+  Widget _listViewCategory() {
+    return GetBuilder<HomeViewModel>(builder: (controller) {
+      return Container(
+        height: 100,
+        child: ListView.separated(
+          scrollDirection: Axis.horizontal,
+          separatorBuilder: (context, index) => SizedBox(
+            width: 20,
+          ),
+          itemCount: controller.categoryModel.length,
+          itemBuilder: (context, index) {
+            return Column(
+              children: [
+                Container(
+                  height: 60,
+                  width: 60,
+                  decoration: BoxDecoration(
+                    color: Colors.grey.shade100,
+                    borderRadius: BorderRadius.circular(50),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child:
+                        Image.network(controller.categoryModel[index].image!),
+                  ),
+                ),
+                CustomText(
+                  text: controller.categoryModel[index].name!,
+                )
+              ],
+            );
+          },
         ),
-        itemCount: names.length,
-        itemBuilder: (context, index) {
-          return Column(
-            children: [
-              Container(
-                height: 60,
-                width: 60,
-                decoration: BoxDecoration(
-                  color: Colors.grey.shade100,
-                  borderRadius: BorderRadius.circular(50),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Image.asset('assets/images/Icon_Mens Shoe.png'),
-                ),
-              ),
-              CustomText(
-                text: names[index],
-              )
-            ],
-          );
-        },
-      ),
-    );
+      );
+    });
   }
 
   Container _listViewProduct() {

@@ -1,28 +1,32 @@
-import 'package:ecommerce_app/view/cart_view.dart';
-import 'package:ecommerce_app/view/home_view.dart';
-import 'package:ecommerce_app/view/profile_view.dart';
-import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:ecommerce_app/core/service/home_service.dart';
+import 'package:ecommerce_app/model/category_model.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
 class HomeViewModel extends GetxController {
-  late Widget _currentScreen = HomeView();
-  int? _navigatorValue = 0;
-  get navigatorValue => _navigatorValue;
-  get currentScreen => _currentScreen;
+  ValueNotifier<bool> get loading => _loading;
+  ValueNotifier<bool> _loading = ValueNotifier(false);
+  List<CategoryModel> _categoryModel = [];
+  List<CategoryModel> get categoryModel => _categoryModel;
 
-  void changeSelectedValue(int selectedValue) {
-    _navigatorValue = selectedValue;
-    switch (selectedValue) {
-      case 0:
-        _currentScreen = HomeView();
-        break;
-      case 1:
-        _currentScreen = CartView();
-        break;
-      case 2:
-        _currentScreen = ProfileView();
-        break;
-    }
-    update();
+  
+
+  HomeViewModel() {
+    getCategory();
+  }
+
+  getCategory() async {
+    _loading.value = true;
+    await HomeService().getCategory().then((value) {
+      for (int i = 0; i < value.length; i++) {
+        _categoryModel.add(CategoryModel.fromJson(
+            value[i].data()! as Map<dynamic, dynamic>));
+        _loading.value = false;
+      }
+      print(_categoryModel.length);
+      update();
+      
+    });
   }
 }

@@ -1,4 +1,3 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:ecommerce_app/core/service/home_service.dart';
 import 'package:ecommerce_app/model/category_model.dart';
 import 'package:flutter/cupertino.dart';

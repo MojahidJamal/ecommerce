@@ -17,6 +17,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       body: Container(
         padding: EdgeInsets.only(top: 100, right: 20, left: 20),
         child: ListView(
@@ -49,6 +50,8 @@ class HomeView extends StatelessWidget {
       ),
     );
   }
+
+  
 
   Container _listViewCategory() {
     return Container(

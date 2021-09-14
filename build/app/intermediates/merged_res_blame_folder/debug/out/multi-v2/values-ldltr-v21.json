@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Flutter Workspace\\ecommerce_app\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "outputFile": "H:\\Flutter Projects\\ecommerce_app\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\4600f65b321d9b5e373caa2a1990275f\\transformed\\appcompat-1.1.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\4600f65b321d9b5e373caa2a1990275f\\transformed\\appcompat-1.1.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

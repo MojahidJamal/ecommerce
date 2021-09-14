@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\values-sq\\values-sq.xml",
+            "outputFile": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\46e9fb27d2922a8f8f3a70bd6e0324d8\\transformed\\jetified-play-services-basement-16.0.1\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\3814d443ccd27c16c69317fc2c0a2a91\\transformed\\jetified-play-services-basement-16.0.1\\res\\values-sq\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\85470f3399f4bd1a7a92398833d9751f\\transformed\\jetified-play-services-base-16.0.1\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\edbe97d0f791df8fc193082f68e6d2ed\\transformed\\jetified-play-services-base-16.0.1\\res\\values-sq\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -57,10 +57,10 @@
             ]
         },
         {
-            "outputFile": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
+            "outputFile": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\values-sq\\values-sq.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\46e9fb27d2922a8f8f3a70bd6e0324d8\\transformed\\jetified-play-services-basement-16.0.1\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\3814d443ccd27c16c69317fc2c0a2a91\\transformed\\jetified-play-services-basement-16.0.1\\res\\values-sq\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -77,7 +77,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -94,7 +94,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\85470f3399f4bd1a7a92398833d9751f\\transformed\\jetified-play-services-base-16.0.1\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\edbe97d0f791df8fc193082f68e6d2ed\\transformed\\jetified-play-services-base-16.0.1\\res\\values-sq\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

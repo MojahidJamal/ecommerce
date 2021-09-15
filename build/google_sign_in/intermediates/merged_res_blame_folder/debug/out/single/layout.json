@@ -1,62 +1,62 @@
 [
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\custom_dialog.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\layout\\custom_dialog.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_media_action.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_big_media.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\layout\\notification_template_icon_group.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\layout\\custom_dialog.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_lines_media.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_big_media_custom.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_big_media_custom.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\layout\\notification_action.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\layout\\notification_action_tombstone.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_media_custom.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_media.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\layout\\notification_template_part_time.xml"
+        "merged": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\layout\\notification_template_media_custom.xml"
     }
 ]

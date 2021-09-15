@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\values-v24\\values-v24.xml",
+            "outputFile": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

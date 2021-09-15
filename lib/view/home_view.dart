@@ -5,58 +5,50 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class HomeView extends StatelessWidget {
-  final List<String> names = <String>[
-    'men',
-    's',
-    's',
-    's',
-    's',
-    's',
-    's',
-  ];
   HomeView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GetBuilder<HomeViewModel>(
-      builder: (controller) => controller.loading.value
-          ? Center(
-              child: CircularProgressIndicator(
-                value: 2.0,
-              ),
-            )
-          : Scaffold(
-              body: Container(
-                padding: EdgeInsets.only(top: 100, right: 20, left: 20),
-                child: ListView(
+      init: Get.find<HomeViewModel>(),
+      builder: (controller) {
+        return controller.loading.value
+            ? Center(child: CircularProgressIndicator())
+            : Scaffold(
+                body: ListView(
                   children: [
-                    _searchTextFormField(),
-                    SizedBox(height: 30),
-                    CustomText(
-                      text: 'Categories',
+                    Container(
+                      padding: EdgeInsets.only(top: 100, right: 20, left: 20),
+                      child: Column(
+                        children: [
+                          _searchTextFormField(),
+                          SizedBox(height: 30),
+                          CustomText(text: 'Categories'),
+                          SizedBox(height: 30),
+                          _listViewCategory(),
+                          SizedBox(height: 30),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              CustomText(
+                                text: 'Best Selling',
+                                fontSize: 18,
+                              ),
+                              CustomText(
+                                text: 'See All',
+                                fontSize: 16,
+                              ),
+                            ],
+                          ),
+                          SizedBox(height: 30),
+                          _listViewProduct(),
+                        ],
+                      ),
                     ),
-                    SizedBox(height: 30),
-                    _listViewCategory(),
-                    SizedBox(height: 30),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        CustomText(
-                          text: 'Best Selling',
-                          fontSize: 18,
-                        ),
-                        CustomText(
-                          text: 'See All',
-                          fontSize: 16,
-                        ),
-                      ],
-                    ),
-                    SizedBox(height: 30),
-                    _listViewProduct(),
                   ],
                 ),
-              ),
-            ),
+              );
+      },
     );
   }
 
@@ -97,60 +89,63 @@ class HomeView extends StatelessWidget {
     });
   }
 
-  Container _listViewProduct() {
-    return Container(
-      height: 350,
-      child: ListView.separated(
-        scrollDirection: Axis.horizontal,
-        separatorBuilder: (context, index) => SizedBox(
-          width: 20,
-        ),
-        itemCount: names.length,
-        itemBuilder: (context, index) {
-          return Container(
-            width: MediaQuery.of(context).size.width * .4,
-            child: Column(
-              children: [
-                Container(
-                  decoration: BoxDecoration(
-                    color: Colors.grey.shade100,
-                    borderRadius: BorderRadius.circular(50),
-                  ),
-                  child: Container(
-                    height: 220,
-                    width: MediaQuery.of(context).size.width * .4,
-                    child: Image.asset(
-                      'assets/images/Image.png',
-                      fit: BoxFit.fill,
+  Widget _listViewProduct() {
+    return GetBuilder<HomeViewModel>(builder: (controller) {
+      return Container(
+        height: 350,
+        child: ListView.separated(
+          scrollDirection: Axis.horizontal,
+          separatorBuilder: (context, index) => SizedBox(
+            width: 20,
+          ),
+          itemCount: controller.productModel.length,
+          itemBuilder: (context, index) {
+            return Container(
+              width: MediaQuery.of(context).size.width * .4,
+              child: Column(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.grey.shade100,
+                      borderRadius: BorderRadius.circular(50),
+                    ),
+                    child: Container(
+                      height: 220,
+                      width: MediaQuery.of(context).size.width * .4,
+                      child: Image.network(
+                        controller.productModel[index].image!,
+                        fit: BoxFit.fill,
+                      ),
                     ),
                   ),
-                ),
-                SizedBox(height: 20),
-                CustomText(
-                  text: 'Beo Play Speaker',
-                  alignment: Alignment.bottomLeft,
-                ),
-                SizedBox(height: 10),
-                CustomText(
-                  text: 'Beo Play Speaker',
-                  alignment: Alignment.bottomLeft,
-                  color: Colors.grey,
-                ),
-                SizedBox(height: 10),
-                CustomText(
-                  text: '\$775',
-                  color: primaryColor,
-                  alignment: Alignment.bottomLeft,
-                ),
-              ],
-            ),
-          );
-        },
-      ),
-    );
+                  SizedBox(height: 20),
+                  CustomText(
+                    text: controller.productModel[index].name!,
+                    alignment: Alignment.bottomLeft,
+                  ),
+                  SizedBox(height: 10),
+                  CustomText(
+                    text: controller.productModel[index].description!,
+                    maxLine: 1,
+                    alignment: Alignment.bottomLeft,
+                    color: Colors.grey,
+                  ),
+                  SizedBox(height: 10),
+                  CustomText(
+                    text: controller.productModel[index].price!.toString(),
+                    color: primaryColor,
+                    alignment: Alignment.bottomLeft,
+                  ),
+                ],
+              ),
+            );
+          },
+        ),
+      );
+    });
   }
 
-  Container _searchTextFormField() {
+  Widget _searchTextFormField() {
     return Container(
       decoration: BoxDecoration(
         color: Colors.grey.shade200,

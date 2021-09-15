@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\values-v21\\values-v21.xml",
+            "outputFile": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -44,10 +44,10 @@
             ]
         },
         {
-            "outputFile": "H:\\Flutter Projects\\ecommerce_app\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "E:\\Flutter Workspace\\ecommerce_app\\build\\google_sign_in\\intermediates\\merged_res\\debug\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\b5d5345273dab5c8f74937cb9a64b625\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -66,7 +66,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\oxygen\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\EliteBook\\.gradle\\caches\\transforms-3\\fe0d9b5c88988a541c8204a13ff4dd19\\transformed\\core-1.1.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

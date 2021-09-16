@@ -1,5 +1,9 @@
+import 'package:ecommerce_app/helper/extension.dart';
+import 'package:flutter/cupertino.dart';
+
 class ProductModel {
-  late final String? name, image, description, color, size, price;
+  late final String? name, image, description, size, price;
+  late Color color;
 
   ProductModel({
     required this.name,
@@ -14,7 +18,7 @@ class ProductModel {
     name = map['name'];
     image = map['image'];
     description = map['description'];
-    color = map['color'];
+    color = HexColor.fromHex(map['color']);
     size = map['size'];
     price = map['price'];
   }

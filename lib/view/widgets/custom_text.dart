@@ -6,6 +6,9 @@ class CustomText extends StatelessWidget {
   final Color color;
   final Alignment alignment;
   final int? maxLine;
+  final double height;
+
+
   const CustomText({
     Key? key,
     this.text = '',
@@ -13,6 +16,7 @@ class CustomText extends StatelessWidget {
     this.color = Colors.black,
     this.alignment = Alignment.topLeft,
     this.maxLine,
+    this.height = 1,
   }) : super(key: key);
 
   @override
@@ -25,6 +29,7 @@ class CustomText extends StatelessWidget {
         style: TextStyle(
           color: color,
           fontSize: fontSize,
+          height: height,
         ),
       ),
     );

@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       initialBinding: Binding(),
+      theme: ThemeData(fontFamily: 'SourceSans'),
       home: Scaffold(
         body: ControlView(),
       ),

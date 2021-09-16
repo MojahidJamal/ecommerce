@@ -1,9 +1,9 @@
-#Thu Sep 16 01:25:47 GMT+02:00 2021
-base.2=E\:\\Flutter Workspace\\ecommerce_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex
+#Thu Sep 16 11:03:24 GMT+02:00 2021
+base.2=H\:\\Flutter Projects\\ecommerce_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex
 path.2=classes3.dex
-base.1=E\:\\Flutter Workspace\\ecommerce_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+base.1=H\:\\Flutter Projects\\ecommerce_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
 path.1=classes2.dex
-base.0=E\:\\Flutter Workspace\\ecommerce_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+base.0=H\:\\Flutter Projects\\ecommerce_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

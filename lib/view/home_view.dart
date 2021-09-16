@@ -1,5 +1,6 @@
 import 'package:ecommerce_app/constants.dart';
 import 'package:ecommerce_app/core/view%20model/home_view_model.dart';
+import 'package:ecommerce_app/view/detail_view.dart';
 import 'package:ecommerce_app/view/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -95,48 +96,52 @@ class HomeView extends StatelessWidget {
         height: 350,
         child: ListView.separated(
           scrollDirection: Axis.horizontal,
-          separatorBuilder: (context, index) => SizedBox(
-            width: 20,
-          ),
           itemCount: controller.productModel.length,
+          separatorBuilder: (context, index) => SizedBox(width: 20),
           itemBuilder: (context, index) {
-            return Container(
-              width: MediaQuery.of(context).size.width * .4,
-              child: Column(
-                children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      color: Colors.grey.shade100,
-                      borderRadius: BorderRadius.circular(50),
-                    ),
-                    child: Container(
-                      height: 220,
-                      width: MediaQuery.of(context).size.width * .4,
-                      child: Image.network(
-                        controller.productModel[index].image!,
-                        fit: BoxFit.fill,
+            return GestureDetector(
+              onTap: () {
+                Get.to(() =>
+                    DetailScreen(productModel: controller.productModel[index]));
+              },
+              child: Container(
+                width: MediaQuery.of(context).size.width * .4,
+                child: Column(
+                  children: [
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Colors.grey.shade100,
+                        borderRadius: BorderRadius.circular(50),
+                      ),
+                      child: Container(
+                        height: 220,
+                        width: MediaQuery.of(context).size.width * .4,
+                        child: Image.network(
+                          controller.productModel[index].image!,
+                          fit: BoxFit.fill,
+                        ),
                       ),
                     ),
-                  ),
-                  SizedBox(height: 20),
-                  CustomText(
-                    text: controller.productModel[index].name!,
-                    alignment: Alignment.bottomLeft,
-                  ),
-                  SizedBox(height: 10),
-                  CustomText(
-                    text: controller.productModel[index].description!,
-                    maxLine: 1,
-                    alignment: Alignment.bottomLeft,
-                    color: Colors.grey,
-                  ),
-                  SizedBox(height: 10),
-                  CustomText(
-                    text: controller.productModel[index].price!.toString(),
-                    color: primaryColor,
-                    alignment: Alignment.bottomLeft,
-                  ),
-                ],
+                    SizedBox(height: 20),
+                    CustomText(
+                      text: controller.productModel[index].name!,
+                      alignment: Alignment.bottomLeft,
+                    ),
+                    SizedBox(height: 10),
+                    CustomText(
+                      text: controller.productModel[index].description!,
+                      maxLine: 1,
+                      alignment: Alignment.bottomLeft,
+                      color: Colors.grey,
+                    ),
+                    SizedBox(height: 10),
+                    CustomText(
+                      text: controller.productModel[index].price!.toString(),
+                      color: primaryColor,
+                      alignment: Alignment.bottomLeft,
+                    ),
+                  ],
+                ),
               ),
             );
           },

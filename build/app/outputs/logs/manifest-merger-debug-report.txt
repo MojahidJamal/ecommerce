@@ -8,6 +8,7 @@ MERGED from H:\Flutter Projects\ecommerce_app\android\app\src\main\AndroidManife
 MERGED from [:firebase_auth] H:\Flutter Projects\ecommerce_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:cloud_firestore] H:\Flutter Projects\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] H:\Flutter Projects\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:sqflite] H:\Flutter Projects\ecommerce_app\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:google_sign_in] H:\Flutter Projects\ecommerce_app\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_facebook_auth] H:\Flutter Projects\ecommerce_app\build\flutter_facebook_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\oxygen\.gradle\caches\transforms-3\12a813fb286e203344378dc820c67805\transformed\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
@@ -294,6 +295,8 @@ MERGED from [:cloud_firestore] H:\Flutter Projects\ecommerce_app\build\cloud_fir
 MERGED from [:cloud_firestore] H:\Flutter Projects\ecommerce_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] H:\Flutter Projects\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] H:\Flutter Projects\ecommerce_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] H:\Flutter Projects\ecommerce_app\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] H:\Flutter Projects\ecommerce_app\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] H:\Flutter Projects\ecommerce_app\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] H:\Flutter Projects\ecommerce_app\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_facebook_auth] H:\Flutter Projects\ecommerce_app\build\flutter_facebook_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44

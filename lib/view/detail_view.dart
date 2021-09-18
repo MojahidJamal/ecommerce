@@ -1,8 +1,11 @@
 import 'package:ecommerce_app/constants.dart';
+import 'package:ecommerce_app/core/view%20model/cart_view_model.dart';
+import 'package:ecommerce_app/model/cart_product_model.dart';
 import 'package:ecommerce_app/model/product_model.dart';
 import 'package:ecommerce_app/view/widgets/custom_button.dart';
 import 'package:ecommerce_app/view/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class DetailScreen extends StatelessWidget {
   late final ProductModel productModel;
@@ -121,15 +124,26 @@ class DetailScreen extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Container(
-                    width: 150,
-                    height: 100,
-                    padding: EdgeInsets.all(20),
-                    child: CustomButton(
-                      text: 'ADD',
-                      onPressed: () {},
-                    ),
-                  ),
+                  GetBuilder<CartViewModel>(
+                      init: CartViewModel(),
+                      builder: (controller) {
+                        return Container(
+                          width: 150,
+                          height: 100,
+                          padding: EdgeInsets.all(20),
+                          child: CustomButton(
+                            text: 'ADD',
+                            onPressed: () {
+                              controller.addToCart(CartProductModel(
+                                name: productModel.name,
+                                image: productModel.image,
+                                quantity: 1,
+                                price: productModel.price,
+                              ));
+                            },
+                          ),
+                        );
+                      }),
                 ],
               ),
             )
